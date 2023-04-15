@@ -13,7 +13,50 @@
 
     <groupId>com.bloomscorp</groupId>
     <artifactId>bmx-spring-base</artifactId>
-    <version>1.0-SNAPSHOT</version>
+    <version>0.0.1</version>
+    <packaging>jar</packaging>
+    <inceptionYear>2023</inceptionYear>
+    <url>https://github.com/bloomscorp/bmx-spring-base</url>
+
+    <description>
+        Base package with managed dependencies for Spring Boot applications.
+        This is an opinionated version of Spring Boot configuration with added as-is dependency configurations.
+    </description>
+
+    <issueManagement>
+        <url>https://github.com/bloomscorp/bmx-spring-base/issues</url>
+        <system>GitHub Issues</system>
+    </issueManagement>
+
+    <distributionManagement>
+        <snapshotRepository>
+            <id>ossrh</id>
+            <url>https://oss.sonatype.org/content/repositories/snapshots</url>
+        </snapshotRepository>
+        <repository>
+            <id>ossrh</id>
+            <url>https://oss.sonatype.org/service/local/staging/deploy/maven2</url>
+        </repository>
+    </distributionManagement>
+
+    <scm>
+        <connection>scm:git:git:https://github.com/bloomscorp/bmx-spring-base.git</connection>
+        <url>https://github.com/bloomscorp/bmx-spring-base</url>
+    </scm>
+
+    <developers>
+        <developer>
+            <name>Debabrata Acharya</name>
+            <email>debabrata@bloomscorp.com</email>
+        </developer>
+    </developers>
+
+    <licenses>
+        <license>
+            <name>MIT License</name>
+            <url>https://www.mit.edu/~amini/LICENSE.md</url>
+        </license>
+    </licenses>
 
     <properties>
         <maven.compiler.source>18</maven.compiler.source>
