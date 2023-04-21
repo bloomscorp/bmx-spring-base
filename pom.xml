@@ -15,7 +15,7 @@
 
     <groupId>com.bloomscorp</groupId>
     <artifactId>bmx-spring-base</artifactId>
-    <version>0.0.11</version>
+    <version>0.0.12</version>
     <packaging>jar</packaging>
     <inceptionYear>2023</inceptionYear>
     <url>https://github.com/bloomscorp/bmx-spring-base</url>
@@ -139,6 +139,11 @@
             <groupId>com.bloomscorp</groupId>
             <artifactId>bmx-behemoth</artifactId>
             <version>0.0.2</version>
+        </dependency>
+        <dependency>
+            <groupId>com.bloomscorp</groupId>
+            <artifactId>bmx-nverse</artifactId>
+            <version>0.0.5</version>
         </dependency>
     </dependencies>
 
