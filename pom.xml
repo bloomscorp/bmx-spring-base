@@ -15,7 +15,7 @@
 
     <groupId>com.bloomscorp</groupId>
     <artifactId>bmx-spring-base</artifactId>
-    <version>0.0.7</version>
+    <version>0.0.8</version>
     <packaging>jar</packaging>
     <inceptionYear>2023</inceptionYear>
     <url>https://github.com/bloomscorp/bmx-spring-base</url>
@@ -76,6 +76,21 @@
             <artifactId>lombok</artifactId>
             <version>1.18.26</version>
             <optional>true</optional>
+        </dependency>
+        <dependency>
+            <groupId>com.bloomscorp</groupId>
+            <artifactId>bmx-pastebox-java</artifactId>
+            <version>0.0.1</version>
+        </dependency>
+        <dependency>
+            <groupId>com.bloomscorp</groupId>
+            <artifactId>bmx-hastar</artifactId>
+            <version>0.0.1</version>
+        </dependency>
+        <dependency>
+            <groupId>com.bloomscorp</groupId>
+            <artifactId>bmx-raintree</artifactId>
+            <version>0.0.1</version>
         </dependency>
     </dependencies>
 
