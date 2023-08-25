@@ -128,12 +128,12 @@
         <dependency>
             <groupId>com.bloomscorp</groupId>
             <artifactId>bmx-behemoth</artifactId>
-            <version>0.0.13</version>
+            <version>0.0.14</version>
         </dependency>
         <dependency>
             <groupId>com.bloomscorp</groupId>
             <artifactId>bmx-nverse</artifactId>
-            <version>0.0.37</version>
+            <version>0.0.38</version>
         </dependency>
     </dependencies>
 
