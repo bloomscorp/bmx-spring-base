@@ -15,7 +15,7 @@
 
     <groupId>com.bloomscorp</groupId>
     <artifactId>bmx-spring-base</artifactId>
-    <version>0.0.46</version>
+    <version>0.0.47</version>
     <packaging>jar</packaging>
     <inceptionYear>2023</inceptionYear>
     <url>https://github.com/bloomscorp/bmx-spring-base</url>
@@ -68,6 +68,10 @@
 
     <dependencies>
         <dependency>
+            <groupId>org.springframework.boot</groupId>
+            <artifactId>spring-boot-starter-web</artifactId>
+        </dependency>
+        <dependency>
             <groupId>org.hibernate.validator</groupId>
             <artifactId>hibernate-validator</artifactId>
             <version>8.0.1.Final</version>
@@ -76,6 +80,16 @@
             <groupId>io.hypersistence</groupId>
             <artifactId>hypersistence-utils-hibernate-62</artifactId>
             <version>3.5.2</version>
+        </dependency>
+        <dependency>
+            <groupId>org.hibernate.search</groupId>
+            <artifactId>hibernate-search-mapper-orm-jakarta</artifactId>
+            <version>6.2.1.Final</version>
+        </dependency>
+        <dependency>
+            <groupId>org.hibernate.search</groupId>
+            <artifactId>hibernate-search-backend-lucene</artifactId>
+            <version>6.2.1.Final</version>
         </dependency>
         <dependency>
             <groupId>io.jsonwebtoken</groupId>
@@ -94,18 +108,8 @@
         </dependency>
         <dependency>
             <groupId>com.bloomscorp</groupId>
-            <artifactId>bmx-hastar</artifactId>
-            <version>0.0.2</version>
-        </dependency>
-        <dependency>
-            <groupId>com.bloomscorp</groupId>
             <artifactId>bmx-behemoth</artifactId>
             <version>0.0.15</version>
-        </dependency>
-        <dependency>
-            <groupId>com.bloomscorp</groupId>
-            <artifactId>bmx-nverse</artifactId>
-            <version>0.0.39</version>
         </dependency>
     </dependencies>
 
