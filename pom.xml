@@ -15,7 +15,7 @@
 
     <groupId>com.bloomscorp</groupId>
     <artifactId>bmx-spring-base</artifactId>
-    <version>0.0.50</version>
+    <version>0.0.51</version>
     <packaging>jar</packaging>
     <inceptionYear>2023</inceptionYear>
     <url>https://github.com/bloomscorp/bmx-spring-base</url>
@@ -73,7 +73,7 @@
         </dependency>
         <dependency>
             <groupId>org.hibernate.search</groupId>
-            <artifactId>hibernate-search-mapper-orm-jakarta</artifactId>
+            <artifactId>hibernate-search-mapper-orm-orm6</artifactId>
             <version>6.2.1.Final</version>
         </dependency>
         <dependency>
