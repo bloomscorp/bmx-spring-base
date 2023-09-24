@@ -22,4 +22,9 @@ public class SearchIndexingService {
 			throw new RuntimeException("Search indexing interrupted!");
 		}
 	}
+
+	@Transactional(readOnly = true)
+	public void trigger(Class<?>... types) {
+		this.index(types);
+	}
 }
