@@ -2,6 +2,8 @@ package com.bloomscorp.bsb;
 
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 import org.springframework.boot.web.servlet.error.ErrorController;
+import org.springframework.context.annotation.ComponentScan;
+import org.springframework.core.annotation.AliasFor;
 import org.springframework.http.HttpStatus;
 import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.RequestMapping;
@@ -17,4 +19,9 @@ import java.lang.annotation.Target;
 @Controller
 @SpringBootApplication
 public @interface BmxApplication {
+	@AliasFor(
+		annotation = SpringBootApplication.class,
+		attribute = "scanBasePackages"
+	)
+	String[] scanBasePackages() default {};
 }
