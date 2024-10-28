@@ -9,13 +9,13 @@
     <parent>
         <groupId>org.springframework.boot</groupId>
         <artifactId>spring-boot-starter-parent</artifactId>
-        <version>3.1.4</version>
+        <version>3.1.12</version>
         <relativePath/>
     </parent>
 
     <groupId>com.bloomscorp</groupId>
     <artifactId>bmx-spring-base</artifactId>
-    <version>0.0.70</version>
+    <version>0.0.71</version>
     <packaging>jar</packaging>
     <inceptionYear>2023</inceptionYear>
     <url>https://github.com/bloomscorp/bmx-spring-base</url>
@@ -73,13 +73,13 @@
         </dependency>
         <dependency>
             <groupId>org.hibernate.search</groupId>
-            <artifactId>hibernate-search-mapper-orm-orm6</artifactId>
-            <version>6.2.1.Final</version>
+            <artifactId>hibernate-search-mapper-orm</artifactId>
+            <version>6.2.4.Final</version>
         </dependency>
         <dependency>
             <groupId>org.hibernate.search</groupId>
             <artifactId>hibernate-search-backend-lucene</artifactId>
-            <version>6.2.1.Final</version>
+            <version>6.2.4.Final</version>
         </dependency>
         <dependency>
             <groupId>org.hibernate.validator</groupId>
