@@ -15,7 +15,7 @@
 
     <groupId>com.bloomscorp</groupId>
     <artifactId>bmx-spring-base</artifactId>
-    <version>0.0.73</version>
+    <version>0.0.74</version>
     <packaging>jar</packaging>
     <inceptionYear>2023</inceptionYear>
     <url>https://github.com/bloomscorp/bmx-spring-base</url>
@@ -75,17 +75,23 @@
         <dependency>
             <groupId>org.postgresql</groupId>
             <artifactId>postgresql</artifactId>
+            <version>42.7.4</version>
             <scope>runtime</scope>
         </dependency>
         <dependency>
             <groupId>org.hibernate.search</groupId>
             <artifactId>hibernate-search-mapper-orm</artifactId>
-            <version>6.2.4.Final</version>
+            <version>7.2.2.Final</version>
         </dependency>
         <dependency>
             <groupId>org.hibernate.search</groupId>
             <artifactId>hibernate-search-backend-lucene</artifactId>
-            <version>6.2.4.Final</version>
+            <version>7.2.2.Final</version>
+        </dependency>
+        <dependency>
+            <groupId>org.jboss.logging</groupId>
+            <artifactId>jboss-logging</artifactId>
+            <version>3.6.0.Final</version>
         </dependency>
         <dependency>
             <groupId>org.hibernate.validator</groupId>
@@ -94,8 +100,13 @@
         </dependency>
         <dependency>
             <groupId>io.hypersistence</groupId>
-            <artifactId>hypersistence-utils-hibernate-62</artifactId>
-            <version>3.5.2</version>
+            <artifactId>hypersistence-utils-hibernate-63</artifactId>
+            <version>3.9.0</version>
+        </dependency>
+        <dependency>
+            <groupId>org.hibernate.orm</groupId>
+            <artifactId>hibernate-core</artifactId>
+            <version>6.6.3.Final</version>
         </dependency>
         <dependency>
             <groupId>io.jsonwebtoken</groupId>
