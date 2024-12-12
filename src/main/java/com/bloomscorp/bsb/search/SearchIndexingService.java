@@ -16,7 +16,7 @@ public class SearchIndexingService {
 	@Transactional(readOnly = true)
 	public void index(Class<?>... types) {
 		try {
-			SearchSession searchSession = Search.session((Session) this.entityManager);
+			SearchSession searchSession = Search.session(this.entityManager);
 			MassIndexer massIndexer = searchSession.massIndexer(types);
 			massIndexer.startAndWait();
 		} catch (InterruptedException exception) {
