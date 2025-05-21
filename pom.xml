@@ -15,7 +15,7 @@
 
     <groupId>com.bloomscorp</groupId>
     <artifactId>bmx-spring-base</artifactId>
-    <version>3.4.0.3</version>
+    <version>3.4.0.4</version>
     <packaging>jar</packaging>
     <inceptionYear>2023</inceptionYear>
     <url>https://github.com/bloomscorp/bmx-spring-base</url>
@@ -123,7 +123,7 @@
         <dependency>
             <groupId>com.bloomscorp</groupId>
             <artifactId>bmx-behemoth</artifactId>
-            <version>3.4.0.2</version>
+            <version>3.4.0.3</version>
         </dependency>
     </dependencies>
 
